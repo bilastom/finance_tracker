@@ -8,6 +8,7 @@ gem 'haml-rails'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'stock_quote'
 
 gem 'jquery-rails'
 gem 'turbolinks'
