@@ -1,6 +1,6 @@
 %h4 My friends
 
-/ = render 'friends/lookup'
+= render 'friends/lookup'
 
 - if @friendship.size > 0
   %table.table.table-striped
@@ -13,7 +13,7 @@
         %th Email
         %th Actions
     %tbody
-      - @firendship.each do |friend|
+      - @friendship.each do |friend|
         %tr
           %td
             = friend.full_name
